@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/brunokarpo/mathematics/issues"
   },
-  "homepage": "https://github.com/brunokarpo/mathematics#readme"
+  "homepage": "https://github.com/brunokarpo/mathematics#readme",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
 }
