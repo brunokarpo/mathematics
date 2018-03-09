@@ -7,7 +7,7 @@
     "clean": "rm -rf dist/",
     "build": "tsc",
     "test": "mocha -r ts-node/register tests/*.spec.ts tests/**/*.spec.ts --reporter spec",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha dist/tests/**/*.spec.js - - -R spec"
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha dist/tests/*.spec.js dist/tests/**/*.spec.js - - -R spec"
   },
   "repository": {
     "type": "git",
