@@ -4,9 +4,10 @@
   "description": "Module that realize Mathematics operations. Created just to study about Node JS. Just for fun!",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf dist/",
     "build": "tsc",
-    "test": "mocha -r ts-node/register **/*.spec.ts --reporter spec",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha dist/tests/*.spec.js - - -R spec"
+    "test": "mocha -r ts-node/register tests/*.spec.ts tests/**/*.spec.ts --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha dist/tests/**/*.spec.js - - -R spec"
   },
   "repository": {
     "type": "git",
